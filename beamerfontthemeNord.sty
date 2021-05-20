@@ -10,6 +10,13 @@
 
 %%%%%%%%%%%% fonts
 
+\RequirePackage{fontspec}
+
+\usepackage[mathrm=sym]{unicode-math}
+\setmathfont{Fira Math}
+\usepackage[sfdefault,lf]{FiraSans}
+\renewcommand*\familydefault{\sfdefault}
+
 \setbeamerfont{structure}{family=\rmfamily,series=\bfseries}
 
 \setbeamerfont{title}{size=\Huge,parent=structure}
