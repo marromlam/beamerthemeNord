@@ -12,12 +12,14 @@
 
 \RequirePackage{fontspec}
 
-\usepackage[mathrm=sym]{unicode-math}
-\setmathfont{Fira Math}
-\usepackage[sfdefault,lf]{FiraSans}
-\renewcommand*\familydefault{\sfdefault}
+% this comes from beamer-compostela and it is not needed
+% \usepackage[mathrm=sym]{unicode-math}
+% \setmathfont{Fira Math}
+% \usepackage[sfdefault,lf]{FiraSans}
+% \renewcommand*\familydefault{\sfdefault}
 
-\setbeamerfont{structure}{family=\rmfamily,series=\bfseries}
+% do not uses romans for title
+\setbeamerfont{structure}{family=\sffamily,series=\bfseries}
 
 \setbeamerfont{title}{size=\Huge,parent=structure}
 \setbeamerfont{subtitle}{size=\Large,parent=title}
